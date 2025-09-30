@@ -21,10 +21,27 @@
             border: 1px solid black;
             padding: 10px;
         }
+
+        .rosa {
+            background-color: pink;
+        }
+
+        .roxo {
+            background-color: violet;
+        }
+
+        .azul {
+            background-color: lightblue;
+        }
     </style>
 </head>
 <body>
     <table>
+        <colgroup>
+        <col class="rosa">
+        <col class="roxo" span="2">
+        <col class="azul">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
