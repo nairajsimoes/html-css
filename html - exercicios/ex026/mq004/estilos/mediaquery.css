@@ -2,3 +2,18 @@
 
 /* Todas as demais mídias */ 
 
+/* Typical Device Breakpoints 
+
+Celular: até 600px
+Tablet: 
+Desktop:
+Grandes telas: 
+*/
+
+@media print {
+
+}
+
+@media screen and (max-width:600px) {
+    
+}
