@@ -13,8 +13,25 @@ Grandes telas: acima de 1200px
 
 @media print {
     body {
-     /* background image desnecessário */
+     /* background image desnecessário */ }
+
+     main h1 {
+     font-family: 'Courier New', Courier, monospace;
+     text-shadow: none;
+     color: black;
     }
+
+    main {
+        border: 2px solid black;
+        width: 90%;
+    }
+
+    main::after {
+        content: "Essa impressão foi feita através do site Curso em Vídeo.";
+        text-decoration: overline;
+    }
+
+     }
 
     img#phone {display: none;}
     img#tablet {display: none;}
