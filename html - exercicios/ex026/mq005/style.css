@@ -18,6 +18,7 @@ header > h1 {
     padding: 10px;
     text-align: center;
     color: white;
+    text-shadow: 1px 1px black;
 }
 
 span#burguer {
@@ -47,7 +48,7 @@ menu a {
     display: block;
     padding: 10px;
     color: white;
-    background-color: rgba(100, 38, 155, 0.149);
+    background-color: rgba(93, 37, 142, 0.549);
     text-align: center;
     border-top: 1px solid  rgb(207, 180, 231);
 }
@@ -60,7 +61,7 @@ main {
     width: 90vw;
     background-color: rgba(255, 255, 255, 0.778);
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 8px;
     padding: 5px;
 }
@@ -68,6 +69,8 @@ main {
 article h2 {
     padding-bottom: 20px;
     text-align: center;
+    color: rgb(111, 47, 168);;
+    text-shadow: 1px 1px rgb(203, 164, 237);
 }
 
 article p {
